@@ -7,8 +7,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - uses: actions/setup-node@v3
-          with:
-            node-version: '12'
+        with:
+          node-version: '12'
       - name: Instala dependências
         run: npm install
       - name: Roda ESlint
